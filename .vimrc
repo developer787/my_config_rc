@@ -1,3 +1,14 @@
+execute pathogen#infect()
+let g:airline#extensions#tabline#enabled = 1
+let g:tmuxline_powerline_separators = 2
+let g:airline#extensions#tmuxline#enabled = 1
+set encoding=utf-8
+set fileencoding=utf-8
+nnoremap <Leader>e :e
+nnoremap <Leader>[ :bprevious<Cr>
+nnoremap <Leader>] :bnext<Cr>
+nnoremap <Leader>q :bd<Cr>
+nnoremap <Leader>w :w<Cr>
 set nocompatible    "run in vim mode
 set autoindent      "auto-indent new lines
 set smartindent     "return ending brackets to proper locations
